@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 17:31
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -168,11 +168,19 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
  (./partial/purpose.tex
 第2章
-) [6
+[6
 
 
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+ (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+)
+[7]
 \openout2 = `partial/simulation.aux'.
 
  (./partial/simulation.tex)
@@ -181,24 +189,23 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
  (./partial/result.tex)
 \openout2 = `partial/conclusion.aux'.
 
-
-(./partial/conclusion.tex)
+ (./partial/conclusion.tex)
 \openout2 = `partial/thanks.aux'.
 
  (./partial/thanks.tex)
 \openout2 = `partial/reference.aux'.
 
- (./partial/reference.tex)
-(./Mydocument.aux (./partial/introduction.aux) (./partial/prologue.aux)
-(./partial/purpose.aux) (./partial/simulation.aux) (./partial/result.aux)
-(./partial/conclusion.aux) (./partial/thanks.aux) (./partial/reference.aux)) ) 
+ (./partial/reference.tex) (./Mydocument.aux
+(./partial/introduction.aux) (./partial/prologue.aux) (./partial/purpose.aux)
+(./partial/simulation.aux) (./partial/result.aux) (./partial/conclusion.aux)
+(./partial/thanks.aux) (./partial/reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 591 strings out of 494442
- 7046 string characters out of 6170618
+ 608 strings out of 494442
+ 7358 string characters out of 6170618
  70254 words of memory out of 5000000
- 4503 multiletter control sequences out of 15000+600000
+ 4517 multiletter control sequences out of 15000+600000
  16029 words of font info for 78 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  25i,6n,22p,1239b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (7 pages, 19960 bytes).
+Output written on Mydocument.dvi (8 pages, 23032 bytes).
