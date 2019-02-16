@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 17:54
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -103,16 +103,7 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 23.0061pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 23.0061pt on input line 12.
- (./Mydocument.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 2.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 2.
-)
+ (./Mydocument.toc)
 \tf@toc=\write3
 \openout3 = `Mydocument.toc'.
 
@@ -159,6 +150,14 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 22.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 22.
 [3
 
 
@@ -183,29 +182,53 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 [7]
 \openout2 = `partial/simulation.aux'.
 
- (./partial/simulation.tex)
+ (./partial/simulation.tex
+第3章
+[8
+
+
+
+]) [9]
 \openout2 = `partial/result.aux'.
 
- (./partial/result.tex)
+ (./partial/result.tex
+第4章
+) [10
+
+
+
+]
 \openout2 = `partial/conclusion.aux'.
 
- (./partial/conclusion.tex)
+ (./partial/conclusion.tex
+第5章
+) [11
+
+
+
+]
 \openout2 = `partial/thanks.aux'.
 
  (./partial/thanks.tex)
 \openout2 = `partial/reference.aux'.
 
- (./partial/reference.tex) (./Mydocument.aux
-(./partial/introduction.aux) (./partial/prologue.aux) (./partial/purpose.aux)
-(./partial/simulation.aux) (./partial/result.aux) (./partial/conclusion.aux)
-(./partial/thanks.aux) (./partial/reference.aux)) ) 
+ (./partial/reference.tex
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2   \bibitem
+              {キー1} 参考文献の名前・著者1 
 Here is how much of TeX's memory you used:
- 608 strings out of 494442
- 7358 string characters out of 6170618
- 70254 words of memory out of 5000000
- 4517 multiletter control sequences out of 15000+600000
+ 590 strings out of 494442
+ 7115 string characters out of 6170618
+ 70114 words of memory out of 5000000
+ 4516 multiletter control sequences out of 15000+600000
  16029 words of font info for 78 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  25i,6n,22p,1239b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (8 pages, 23032 bytes).
+Output written on Mydocument.dvi (12 pages, 24508 bytes).
