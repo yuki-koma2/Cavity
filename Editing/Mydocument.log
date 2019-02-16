@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 17:08
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -50,7 +50,9 @@ LaTeX Info: Redefining \LaTeXe on input line 200.
 \heisei=\count92
 )
 (./thesis.sty) (./Mydocument.aux (./partial/introduction.aux)
-(./partial/prologue.aux))
+(./partial/prologue.aux) (./partial/purpose.aux) (./partial/simulation.aux)
+(./partial/result.aux) (./partial/conclusion.aux) (./partial/thanks.aux)
+(./partial/reference.aux))
 \openout1 = `Mydocument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -101,7 +103,16 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 23.0061pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 23.0061pt on input line 12.
- (./Mydocument.toc)
+ (./Mydocument.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `Mydocument.toc'.
 
@@ -148,31 +159,46 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 11.
 [3
 
 
 
+] [4]) [5]
+\openout2 = `partial/purpose.aux'.
+
+ (./partial/purpose.tex
+第2章
+) [6
+
+
+
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.40 ...電解の進行方向成分はゼロ（E_
-                                                 z = 0）であるが、H_zは 
+\openout2 = `partial/simulation.aux'.
+
+ (./partial/simulation.tex)
+\openout2 = `partial/result.aux'.
+
+ (./partial/result.tex)
+\openout2 = `partial/conclusion.aux'.
+
+
+(./partial/conclusion.tex)
+\openout2 = `partial/thanks.aux'.
+
+ (./partial/thanks.tex)
+\openout2 = `partial/reference.aux'.
+
+ (./partial/reference.tex)
+(./Mydocument.aux (./partial/introduction.aux) (./partial/prologue.aux)
+(./partial/purpose.aux) (./partial/simulation.aux) (./partial/result.aux)
+(./partial/conclusion.aux) (./partial/thanks.aux) (./partial/reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 537 strings out of 494442
- 5993 string characters out of 6170618
- 70114 words of memory out of 5000000
- 4496 multiletter control sequences out of 15000+600000
+ 591 strings out of 494442
+ 7046 string characters out of 6170618
+ 70254 words of memory out of 5000000
+ 4503 multiletter control sequences out of 15000+600000
  16029 words of font info for 78 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 23i,6n,22p,1347b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,22p,1239b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (4 pages, 7000 bytes).
+Output written on Mydocument.dvi (7 pages, 19960 bytes).
