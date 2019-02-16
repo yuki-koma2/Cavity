@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 18:14
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -49,71 +49,83 @@ LaTeX Info: Redefining \LaTeXe on input line 200.
 )
 \heisei=\count92
 )
-(./thesis.sty) (./Mydocument.aux (./partial/introduction.aux)
-(./partial/prologue.aux) (./partial/purpose.aux) (./partial/simulation.aux)
-(./partial/result.aux) (./partial/conclusion.aux) (./partial/thanks.aux)
-(./partial/reference.aux))
+(./thesis.sty) (/usr/local/texlive/2018basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(./Mydocument.aux (./partial/introduction.aux) (./partial/prologue.aux)
+(./partial/purpose.aux) (./partial/simulation.aux) (./partial/result.aux)
+(./partial/conclusion.aux) (./partial/thanks.aux) (./partial/reference.aux))
 \openout1 = `Mydocument.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 9.
+(Font)              scaled to size 15.9785pt on input line 10.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 9.
+(Font)              scaled to size 15.9785pt on input line 10.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 9.
+(Font)              scaled to size 11.09619pt on input line 10.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 9.
+(Font)              scaled to size 11.09619pt on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 10.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 9.
- [1
+(Font)              scaled to size 5.5481pt on input line 10.
+
+[1
 
 
 ]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 12.
+(Font)              scaled to size 9.24683pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 12.
+(Font)              scaled to size 9.24683pt on input line 13.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 12.
+(Font)              scaled to size 23.0061pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 12.
+(Font)              scaled to size 23.0061pt on input line 13.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 12.
+(Font)              scaled to size 23.0061pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 12.
- (./Mydocument.toc)
+(Font)              scaled to size 23.0061pt on input line 13.
+ (./Mydocument.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 2.
+ [1
+
+])
 \tf@toc=\write3
 \openout3 = `Mydocument.toc'.
 
- [1
-
-]
+ [2]
 \openout2 = `partial/introduction.aux'.
 
-
-(./partial/introduction.tex
+ (./partial/introduction.tex
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -122,13 +134,14 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 4.
-) [2
+) [3
 
 
 ]
 \openout2 = `partial/prologue.aux'.
 
- (./partial/prologue.tex
+
+(./partial/prologue.tex
 第1章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 1.
@@ -150,24 +163,16 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 22.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 22.
-[3
+[4
 
 
 
-] [4]) [5]
+] [5]) [6]
 \openout2 = `partial/purpose.aux'.
 
  (./partial/purpose.tex
 第2章
-[6
+[7
 
 
 
@@ -179,21 +184,21 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
 )
-[7]
+[8]
 \openout2 = `partial/simulation.aux'.
 
  (./partial/simulation.tex
 第3章
-[8
+[9
 
 
 
-]) [9]
+]) [10]
 \openout2 = `partial/result.aux'.
 
  (./partial/result.tex
 第4章
-) [10
+) [11
 
 
 
@@ -202,33 +207,37 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
  (./partial/conclusion.tex
 第5章
-) [11
+) [12
 
 
 
 ]
 \openout2 = `partial/thanks.aux'.
 
- (./partial/thanks.tex)
+ (./partial/thanks.tex
+第6章
+) [13
+
+
+
+]
 \openout2 = `partial/reference.aux'.
 
- (./partial/reference.tex
+ (./partial/reference.tex) [14
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2   \bibitem
-              {キー1} 参考文献の名前・著者1 
+
+] (./Mydocument.aux
+(./partial/introduction.aux) (./partial/prologue.aux) (./partial/purpose.aux)
+(./partial/simulation.aux) (./partial/result.aux) (./partial/conclusion.aux)
+(./partial/thanks.aux) (./partial/reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 590 strings out of 494442
- 7115 string characters out of 6170618
- 70114 words of memory out of 5000000
- 4516 multiletter control sequences out of 15000+600000
- 16029 words of font info for 78 fonts, out of 8000000 for 9000
+ 691 strings out of 494442
+ 8369 string characters out of 6170618
+ 74384 words of memory out of 5000000
+ 4595 multiletter control sequences out of 15000+600000
+ 16197 words of font info for 79 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 25i,6n,22p,1239b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,22p,1239b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (12 pages, 24508 bytes).
+Output written on Mydocument.dvi (15 pages, 37284 bytes).
