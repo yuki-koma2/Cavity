@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 20:09
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -194,9 +194,9 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 76.
+(Font)              scaled to size 8.32214pt on input line 78.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 76.
+(Font)              scaled to size 8.32214pt on input line 78.
 ) [6]
 \openout2 = `partial/purpose.aux'.
 
@@ -268,6 +268,6 @@ Here is how much of TeX's memory you used:
  4951 multiletter control sequences out of 15000+600000
  16783 words of font info for 82 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 25i,6n,22p,1239b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,22p,1239b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Mydocument.dvi (15 pages, 37484 bytes).
