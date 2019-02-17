@@ -136,11 +136,14 @@ INPUT extractbb -B cropbox -O ./image/model73.png
 INPUT ./image/基板資料あり.png
 INPUT extractbb -B cropbox -O ./image/基板資料あり.png
 INPUT ./image/空洞共振器.png
+INPUT ./image/model73_vac.png
+INPUT extractbb -B cropbox -O ./image/model73_vac.png
 INPUT ./image/空洞共振器.png
+INPUT ./image/model73_kiban_e_y_y.png
+INPUT extractbb -B cropbox -O ./image/model73_kiban_e_y_y.png
 INPUT ./image/空洞共振器.png
-INPUT ./image/空洞共振器.png
-INPUT ./image/空洞共振器.png
-INPUT ./image/空洞共振器.png
+INPUT ./image/model73_y_x.png
+INPUT extractbb -B cropbox -O ./image/model73_y_x.png
 INPUT ./image/空洞共振器.png
 OUTPUT partial/conclusion.aux
 INPUT partial/conclusion.tex

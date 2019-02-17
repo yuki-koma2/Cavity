@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 18:02
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,41 +301,37 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 97--111
 [13]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
+File: ./image/model73_vac.png Graphic file (type bmp)
+<./image/model73_vac.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 126--140
-[][]$[]$[] []$[]$[] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 144--158
-[][]$[]$[] []$[]$[] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 162--176
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 132--146
 [][]$[]$[] []$[]$[] 
  []
 
 [14]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
+File: ./image/model73_kiban_e_y_y.png Graphic file (type bmp)
+<./image/model73_kiban_e_y_y.png>
 
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 150--164
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+File: ./image/model73_y_x.png Graphic file (type bmp)
+<./image/model73_y_x.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 168--182
+[][]$[]$[] []$[]$[] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -373,12 +369,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1109 strings out of 494442
- 14267 string characters out of 6170618
+ 1118 strings out of 494442
+ 14513 string characters out of 6170618
  80943 words of memory out of 5000000
- 4978 multiletter control sequences out of 15000+600000
+ 4984 multiletter control sequences out of 15000+600000
  16783 words of font info for 82 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  25i,6n,22p,1239b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (20 pages, 49152 bytes).
+Output written on Mydocument.dvi (20 pages, 49772 bytes).

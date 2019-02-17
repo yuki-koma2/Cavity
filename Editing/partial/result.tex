@@ -64,10 +64,10 @@
 これらの結果を受けて、共振周波数を大きく変化させるためには、共振器内部の「電場振幅の大きい場所」に誘電体を「挿入」すると良さそうである。
 
 \section{設計したモデル}
-この結果を受けて今回は下図(図4.5)の基本モードTE101 f=61GHz（固有値解析）となるような直方型空洞共振器を設計した。
+この結果を受けて今回は下図(図4.5)の基本モードTE$_{101}$,f=61GHz（固有値解析）となるような直方型空洞共振器を設計した。
 
 \subsection{詳細設計}
-具体的には、独立した３つの方向をx,y,z方向とよぶとする。
+具体的には、独立した３つの方向をx,y,z方向と呼ぶとする。
 以下で使う長さの単位がmmである場合には省略して表記する。
 基本となる空洞の大きさは(x,y,x)=(2.8,1.5,4.8)である。
 共振器の底中央に大きさ(x,y,z)=(2.8,0.5,1.5)の基盤を設置した。（図4.7）
@@ -117,10 +117,16 @@
 この共振器の基本的な性質を示す。
 以下それぞれ、左に固有値解析の結果、右に過渡解析の結果を示す。
 過渡解析の結果はSパラメータを表示している。
+シミュレーションでは入力ポートと出力ポートを設定しており、
+S$_{11}$は入力電力に対する反射電力比を示し、
+S$_{21}$は入力電力に対する透過電力比を示す。
+その２つの値が大きく逆向きに変動している場所で共振していると言える。
+
 
 \subsubsection{誘電体なし基盤なし}
 まず誘電体も基盤も全く設置していない場合の解析結果は以下のようになっている。
-過渡解析の結果、共振
+過渡解析の結果、狙ったモード（TE$_{101}$）での共振も観測された。
+前述の調整誘電体の場所はこの結果を受けて、決定している。
 
 \begin{figure}[h]
  \begin{minipage}{0.5\hsize}
@@ -132,7 +138,7 @@
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-   \includegraphics[width=70mm]{./image/空洞共振器.png}
+   \includegraphics[width=70mm]{./image/model73_vac.png}
   \end{center}
   \caption{二つめの図}
   \label{fig:two}
@@ -150,7 +156,7 @@
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-   \includegraphics[width=70mm]{./image/空洞共振器.png}
+   \includegraphics[width=70mm]{./image/model73_kiban_e_y_y.png}
   \end{center}
   \caption{二つめの図}
   \label{fig:two}
@@ -168,7 +174,7 @@
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-   \includegraphics[width=70mm]{./image/空洞共振器.png}
+   \includegraphics[width=70mm]{./image/model73_y_x.png}
   \end{center}
   \caption{二つめの図}
   \label{fig:two}
