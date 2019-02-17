@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  16 FEB 2019 20:11
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,23 +202,30 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 
  (./partial/purpose.tex
 第2章
+File: ./image/pos.png Graphic file (type bmp)
+<./image/pos.png>
 [7
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
  (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
 )
 [8]
 \openout2 = `partial/simulation.aux'.
 
  (./partial/simulation.tex
 第3章
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [9
 
 
@@ -262,12 +269,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (./partial/simulation.aux) (./partial/result.aux) (./partial/conclusion.aux)
 (./partial/thanks.aux) (./partial/reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 1073 strings out of 494442
- 13613 string characters out of 6170618
- 80815 words of memory out of 5000000
- 4951 multiletter control sequences out of 15000+600000
+ 1080 strings out of 494442
+ 13701 string characters out of 6170618
+ 80844 words of memory out of 5000000
+ 4957 multiletter control sequences out of 15000+600000
  16783 words of font info for 82 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  25i,6n,22p,1239b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (15 pages, 37484 bytes).
+Output written on Mydocument.dvi (15 pages, 38604 bytes).

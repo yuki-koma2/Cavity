@@ -109,11 +109,14 @@ INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 OUTPUT partial/purpose.aux
 INPUT partial/purpose.tex
 INPUT partial/purpose.tex
+INPUT ./image/pos.png
+INPUT extractbb -B cropbox -O ./image/pos.png
 INPUT /usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 OUTPUT partial/simulation.aux
 INPUT partial/simulation.tex
 INPUT partial/simulation.tex
+INPUT ./image/空洞共振器.png
 OUTPUT partial/result.aux
 INPUT partial/result.tex
 INPUT partial/result.tex
