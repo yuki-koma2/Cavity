@@ -120,7 +120,13 @@ INPUT ./image/空洞共振器.png
 OUTPUT partial/result.aux
 INPUT partial/result.tex
 INPUT partial/result.tex
-INPUT ./image/空洞共振器.png
+INPUT ./image/te101.png
+INPUT extractbb -B cropbox -O ./image/te101.png
+INPUT ./image/pos.png
+INPUT ./image/length.png
+INPUT extractbb -B cropbox -O ./image/length.png
+INPUT ./image/plot1.jpg
+INPUT extractbb -B cropbox -O ./image/plot1.jpg
 INPUT ./image/空洞共振器.png
 INPUT ./image/空洞共振器.png
 INPUT ./image/空洞共振器.png
