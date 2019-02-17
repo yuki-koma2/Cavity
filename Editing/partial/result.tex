@@ -63,17 +63,30 @@
 \subsection{考察}
 これらの結果を受けて、共振周波数を大きく変化させるためには、共振器内部の「電場振幅の大きい場所」に誘電体を「挿入」すると良さそうである。
 
-\section{提案するモデル}
-この結果を受けて今回は以下のようなモデルを提案する。
-\subsection{設計}
+\section{設計したモデル}
+この結果を受けて今回は下図(図4.5)の基本モードTE101 f=61GHz（固有値解析）となるような直方型空洞共振器を設計した。
 
+\subsection{詳細設計}
+具体的には、独立した３つの方向をx,y,z方向とよぶとする。
+以下で使う長さの単位がmmである場合には省略して表記する。
+基本となる空洞の大きさは(x,y,x)=(2.8,1.5,4.8)である。
+共振器の底中央に大きさ(x,y,z)=(2.8,0.5,1.5)の基盤を設置した。（図4.7）
+また、上部中央に共振周波数を調整するための誘電体として
+大きさ(x,y,z)=(2.8,0.5,1.5)で挿入した。
+挿入する誘電体は比誘電率9を持つサファイアを想定した。
+誘電体、基盤として用いるサファイアは、北野研究室でよく使用されるサファイア基盤の厚さが5mmであるためそこから切り出しやすいように今回使用する厚みも5mmとした。
+試料の位置は図4.5を参照。
+また基盤と周波数調整誘電体の大きさが同じなのは試料設置位置にかかる電場を最大にするためである。
+また過去に行われたcavity-QED実験\cite{cQED}を参考にして、外界との結合のため共振器上部に高さ1mm励振部を設置した。
+外部との結合に用いる同軸ケーブルのサイズは外部導体の外径$φ=2.197mm$、内部誘電体層（テフロン）の外径$φ=1.676mm$、中心導体の外径$φ=0.511mm$とした。
+また、空洞共振器の壁には完全導体(PEC)を使用し、内部は真空とした。
 
 \vspace{10 mm}
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=8cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
+    \includegraphics[width=12cm]{./image/newmodel.png}
+    \caption{設計したモデルの断面からの図}
     \label{fig:Cavity}
   \end{center}
 \end{figure}
@@ -81,34 +94,33 @@
 \vspace{10 mm}
 
 \begin{figure}[h]
+ \begin{minipage}{0.5\hsize}
   \begin{center}
-    \includegraphics[width=8cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
-    \label{fig:Cavity}
+   \includegraphics[width=70mm]{./image/model73.png}
   \end{center}
+  \caption{設計したモデルの立体図}
+  \label{fig:one}
+ \end{minipage}
+ \begin{minipage}{0.5\hsize}
+  \begin{center}
+   \includegraphics[width=70mm]{./image/基板資料あり.png}
+  \end{center}
+  \caption{基盤に試料を乗せた図}
+  \label{fig:two}
+ \end{minipage}
 \end{figure}
 
-\vspace{10 mm}
-
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=8cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
-    \label{fig:Cavity}
-  \end{center}
-\end{figure}
-
-\vspace{10 mm}
-
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=8cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
-    \label{fig:Cavity}
-  \end{center}
-\end{figure}
+実際に実験を行う際には、図4.7にあるように、
+共振器の底に設置した誘電体の上には超伝導体の試料を載せる。
 
 \subsection{基本性質}
+この共振器の基本的な性質を示す。
+以下それぞれ、左に固有値解析の結果、右に過渡解析の結果を示す。
+過渡解析の結果はSパラメータを表示している。
+
+\subsubsection{誘電体なし基盤なし}
+まず誘電体も基盤も全く設置していない場合の解析結果は以下のようになっている。
+過渡解析の結果、共振
 
 \begin{figure}[h]
  \begin{minipage}{0.5\hsize}
@@ -127,7 +139,7 @@
  \end{minipage}
 \end{figure}
 
-\vspace{10 mm}
+\subsubsection{誘電体なし基盤あり}
 \begin{figure}[h]
  \begin{minipage}{0.5\hsize}
   \begin{center}
@@ -145,8 +157,7 @@
  \end{minipage}
 \end{figure}
 
-
-\vspace{10 mm}
+\subsubsection{誘電体あり基盤あり}
 \begin{figure}[h]
  \begin{minipage}{0.5\hsize}
   \begin{center}

@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.1}昨年度の研究結果}{7}% 
 \contentsline {section}{\numberline {2.2}昨年度の課題}{7}% 
 \contentsline {subsection}{\numberline {2.2.1}共振周波数の調整方法}{7}% 
-\contentsline {subsection}{\numberline {2.2.2}外界との結合方法}{8}% 
+\contentsline {subsection}{\numberline {2.2.2}外界との結合方法}{7}% 
 \contentsline {subsection}{\numberline {2.2.3}試料の設置位置が不明瞭}{8}% 
 \contentsline {section}{\numberline {2.3}本研究の目的}{8}% 
 \contentsline {chapter}{\numberline {第3章}シミュレーション}{9}% 
@@ -23,9 +23,12 @@
 \contentsline {section}{\numberline {4.1}誘電体挿入による影響}{11}% 
 \contentsline {subsection}{\numberline {4.1.1}結果}{12}% 
 \contentsline {subsection}{\numberline {4.1.2}考察}{12}% 
-\contentsline {section}{\numberline {4.2}提案するモデル}{13}% 
-\contentsline {subsection}{\numberline {4.2.1}設計}{13}% 
-\contentsline {subsection}{\numberline {4.2.2}基本性質}{15}% 
+\contentsline {section}{\numberline {4.2}設計したモデル}{13}% 
+\contentsline {subsection}{\numberline {4.2.1}詳細設計}{13}% 
+\contentsline {subsection}{\numberline {4.2.2}基本性質}{14}% 
+\contentsline {subsubsection}{誘電体なし基盤なし}{14}% 
+\contentsline {subsubsection}{誘電体なし基盤あり}{15}% 
+\contentsline {subsubsection}{誘電体あり基盤あり}{15}% 
 \contentsline {subsection}{\numberline {4.2.3}誘電体挿入時の共振周波数変化}{16}% 
 \contentsline {subsection}{\numberline {4.2.4}考察}{16}% 
 \contentsline {chapter}{\numberline {第5章}結論と今後の展望}{17}% 

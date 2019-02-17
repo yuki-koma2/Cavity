@@ -109,28 +109,32 @@ INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 OUTPUT partial/purpose.aux
 INPUT partial/purpose.tex
 INPUT partial/purpose.tex
-INPUT ./image/pos.png
-INPUT extractbb -B cropbox -O ./image/pos.png
+INPUT ./image/watanabe.png
+INPUT extractbb -B cropbox -O ./image/watanabe.png
 INPUT /usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 OUTPUT partial/simulation.aux
 INPUT partial/simulation.tex
 INPUT partial/simulation.tex
-INPUT ./image/空洞共振器.png
+INPUT ./image/mesh.png
+INPUT extractbb -B cropbox -O ./image/mesh.png
 OUTPUT partial/result.aux
 INPUT partial/result.tex
 INPUT partial/result.tex
 INPUT ./image/te101.png
 INPUT extractbb -B cropbox -O ./image/te101.png
 INPUT ./image/pos.png
+INPUT extractbb -B cropbox -O ./image/pos.png
 INPUT ./image/length.png
 INPUT extractbb -B cropbox -O ./image/length.png
 INPUT ./image/plot1.jpg
 INPUT extractbb -B cropbox -O ./image/plot1.jpg
-INPUT ./image/空洞共振器.png
-INPUT ./image/空洞共振器.png
-INPUT ./image/空洞共振器.png
-INPUT ./image/空洞共振器.png
+INPUT ./image/newmodel.png
+INPUT extractbb -B cropbox -O ./image/newmodel.png
+INPUT ./image/model73.png
+INPUT extractbb -B cropbox -O ./image/model73.png
+INPUT ./image/基板資料あり.png
+INPUT extractbb -B cropbox -O ./image/基板資料あり.png
 INPUT ./image/空洞共振器.png
 INPUT ./image/空洞共振器.png
 INPUT ./image/空洞共振器.png

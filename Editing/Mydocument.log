@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 15:38
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -85,13 +85,10 @@ LaTeX Warning: Label `fig:Cavity' multiply defined.
 LaTeX Warning: Label `fig:Cavity' multiply defined.
 
 
-LaTeX Warning: Label `fig:Cavity' multiply defined.
+LaTeX Warning: Label `fig:one' multiply defined.
 
 
-LaTeX Warning: Label `fig:Cavity' multiply defined.
-
-
-LaTeX Warning: Label `fig:Cavity' multiply defined.
+LaTeX Warning: Label `fig:two' multiply defined.
 
 
 LaTeX Warning: Label `fig:one' multiply defined.
@@ -232,8 +229,11 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 
  (./partial/purpose.tex
 第2章
-File: ./image/pos.png Graphic file (type bmp)
-<./image/pos.png>
+File: ./image/watanabe.png Graphic file (type bmp)
+<./image/watanabe.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [7
 
 
@@ -251,8 +251,8 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
  (./partial/simulation.tex
 第3章
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
+File: ./image/mesh.png Graphic file (type bmp)
+<./image/mesh.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -283,46 +283,63 @@ File: ./image/plot1.jpg Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12]
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
- [13]
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
+File: ./image/newmodel.png Graphic file (type bmp)
+<./image/newmodel.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./image/model73.png Graphic file (type bmp)
+<./image/model73.png>
+File: ./image/基板資料あり.png Graphic file (type bmp)
+<./image/基板資料あり.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 97--111
+[][]$[]$[] []$[]$[] 
+ []
+
+[13]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 114--128
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 126--140
+[][]$[]$[] []$[]$[] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 144--158
+[][]$[]$[] []$[]$[] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 162--176
 [][]$[]$[] []$[]$[] 
  []
 
 [14]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 132--146
-[][]$[]$[] []$[]$[] 
- []
 
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 151--165
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-[15]) [16]
+) [15] [16]
 \openout2 = `partial/conclusion.aux'.
 
  (./partial/conclusion.tex
@@ -356,12 +373,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1094 strings out of 494442
- 13927 string characters out of 6170618
+ 1109 strings out of 494442
+ 14267 string characters out of 6170618
  80943 words of memory out of 5000000
- 4968 multiletter control sequences out of 15000+600000
+ 4978 multiletter control sequences out of 15000+600000
  16783 words of font info for 82 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 25i,6n,22p,1239b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,22p,1239b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (20 pages, 46360 bytes).
+Output written on Mydocument.dvi (20 pages, 49152 bytes).
