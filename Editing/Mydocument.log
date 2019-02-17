@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 13:00
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -78,12 +78,6 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 \Gin@req@width=\dimen125
 ) (./Mydocument.aux (./partial/introduction.aux) (./partial/prologue.aux)
 (./partial/purpose.aux) (./partial/simulation.aux) (./partial/result.aux
-
-LaTeX Warning: Label `fig:Cavity' multiply defined.
-
-
-LaTeX Warning: Label `fig:Cavity' multiply defined.
-
 
 LaTeX Warning: Label `fig:Cavity' multiply defined.
 
@@ -284,8 +278,6 @@ File: ./image/空洞共振器.png Graphic file (type bmp)
 ]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
  [12]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
@@ -293,23 +285,25 @@ File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
 [13]
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./image/空洞共振器.png Graphic file (type bmp)
+<./image/空洞共振器.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -347,12 +341,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1080 strings out of 494442
- 13701 string characters out of 6170618
- 80886 words of memory out of 5000000
- 4957 multiletter control sequences out of 15000+600000
+ 1083 strings out of 494442
+ 13740 string characters out of 6170618
+ 80919 words of memory out of 5000000
+ 4960 multiletter control sequences out of 15000+600000
  16783 words of font info for 82 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  25i,6n,22p,1239b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (19 pages, 44916 bytes).
+Output written on Mydocument.dvi (19 pages, 45888 bytes).

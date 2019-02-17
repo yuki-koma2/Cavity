@@ -4,7 +4,18 @@
 
 \section{誘電体挿入による影響}
 まず、誘電体挿入による影響を調べるための検証を行った。
-大きさが同じ共振器（基本モード$TE101$）を用いて、誘電率9の誘電体(サファイア)を下図のように
+
+\vspace{10 mm}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=5cm]{./image/空洞共振器.png}
+    \caption{TE101の電場分布}
+    \label{fig:E-TE101}
+  \end{center}
+\end{figure}
+
+上図のように基本モード$TE101$を持つ空洞共振器を用いて、誘電率9の誘電体(サファイア)を下図のように
 
 \begin{enumerate}
   \item 共振器よりも小さいサイズで位置のみを変化させたモデル
@@ -18,8 +29,8 @@
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=5cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
-    \label{fig:Cavity}
+    \caption{位置のみを変化させたモデル}
+    \label{fig:potition}
   \end{center}
 \end{figure}
 
@@ -28,29 +39,35 @@
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=5cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
-    \label{fig:Cavity}
+    \caption{誘電体を挿入していったモデル}
+    \label{fig:length}
   \end{center}
 \end{figure}
 
 \subsection{結果}
+結果を以下のグラフに示す。
+この結果から、電場振幅の大きい場所に誘電体をおいた方が振幅が小さい場所におくよりも大きく共振周波数が変化すること。また、誘電体の位置だけを変化させる場合と挿入する場合では、変化の最大値は挿入していったモデルの方が大きいということがわかった。
+
 
 \vspace{10 mm}
 
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=5cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
+    \caption{誘電体による共振周波数の変化の検証}
     \label{fig:Cavity}
   \end{center}
 \end{figure}
 
-\subsection{考察}
 
+\subsection{考察}
+これらの結果を受けて、共振周波数を大きく変化させるためには、共振器内部の「電場振幅の大きい場所」に誘電体を「挿入」すると良さそうである。
 
 \section{提案するモデル}
 この結果を受けて今回は以下のようなモデルを提案する。
 \subsection{設計}
+
+
 \vspace{10 mm}
 
 \begin{figure}[h]

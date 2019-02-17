@@ -131,6 +131,7 @@ INPUT ./image/空洞共振器.png
 INPUT ./image/空洞共振器.png
 INPUT ./image/空洞共振器.png
 INPUT ./image/空洞共振器.png
+INPUT ./image/空洞共振器.png
 OUTPUT partial/conclusion.aux
 INPUT partial/conclusion.tex
 INPUT partial/conclusion.tex

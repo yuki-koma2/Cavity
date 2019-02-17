@@ -23,8 +23,8 @@
 \contentsline {section}{\numberline {4.1}誘電体挿入による影響}{11}% 
 \contentsline {subsection}{\numberline {4.1.1}結果}{12}% 
 \contentsline {subsection}{\numberline {4.1.2}考察}{12}% 
-\contentsline {section}{\numberline {4.2}提案するモデル}{12}% 
-\contentsline {subsection}{\numberline {4.2.1}設計}{12}% 
+\contentsline {section}{\numberline {4.2}提案するモデル}{13}% 
+\contentsline {subsection}{\numberline {4.2.1}設計}{13}% 
 \contentsline {subsection}{\numberline {4.2.2}基本性質}{14}% 
 \contentsline {subsection}{\numberline {4.2.3}誘電体挿入時の共振周波数変化}{14}% 
 \contentsline {subsection}{\numberline {4.2.4}考察}{14}% 
