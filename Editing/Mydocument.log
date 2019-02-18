@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  18 FEB 2019 13:36
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  18 FEB 2019 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -166,13 +166,13 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 6.47278pt on input line 2.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 2.
- [1
-
-])
+)
 \tf@toc=\write3
 \openout3 = `Mydocument.toc'.
 
- [2]
+ [1
+
+]
 \openout2 = `partial/introduction.aux'.
 
  (./partial/introduction.tex
@@ -184,7 +184,7 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 11.
-) [3
+) [2
 
 
 ]
@@ -219,24 +219,24 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 8.32214pt on input line 28.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 8.32214pt on input line 28.
-[4
+[3
 
 
 
 ]
 File: ./image/IJJ.png Graphic file (type bmp)
 <./image/IJJ.png>
- [5]
+ [4]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
- [6]) [7]
+ [5]) [6]
 \openout2 = `partial/purpose.aux'.
 
  (./partial/purpose.tex
 第2章
 File: ./image/watanabe.png Graphic file (type bmp)
 <./image/watanabe.png>
-[8
+[7
 
 
 
@@ -248,7 +248,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
 )
-[9]
+[8]
 \openout2 = `partial/simulation.aux'.
 
  (./partial/simulation.tex
@@ -257,14 +257,14 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 6.47278pt on input line 19.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 19.
-[10
+[9
 
 
 
 ]
 File: ./image/mesh.png Graphic file (type bmp)
 <./image/mesh.png>
-) [11]
+) [10]
 \openout2 = `partial/result.aux'.
 
  (./partial/result.tex
@@ -277,7 +277,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 8.32214pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 5.5481pt on input line 13.
-[12
+[11
 
 
 
@@ -286,10 +286,10 @@ File: ./image/pos.png Graphic file (type bmp)
 <./image/pos.png>
 File: ./image/length.png Graphic file (type bmp)
 <./image/length.png>
- [13]
+ [12]
 File: ./image/plot1.jpg Graphic file (type bmp)
 <./image/plot1.jpg>
- [14]
+ [13]
 File: ./image/newmodel.png Graphic file (type bmp)
 <./image/newmodel.png>
 File: ./image/model73.png Graphic file (type bmp)
@@ -304,7 +304,7 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 129--143
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
+[14]
 File: ./image/model73_vac.png Graphic file (type bmp)
 <./image/model73_vac.png>
 File: ./image/Graph1.jpg Graphic file (type bmp)
@@ -314,7 +314,7 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 164--178
 [][]$[]$[] []$[]$[] 
  []
 
-[16]
+[15]
 File: ./image/model73_kiban_e_y_y.png Graphic file (type bmp)
 <./image/model73_kiban_e_y_y.png>
 File: ./image/Graph5.jpg Graphic file (type bmp)
@@ -335,15 +335,15 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 211--225
 
 File: ./image/insert.png Graphic file (type bmp)
 <./image/insert.png>
-[17]
+[16]
 File: ./image/plot2.jpg Graphic file (type bmp)
 <./image/plot2.jpg>
-) [18]
+) [17]
 \openout2 = `partial/conclusion.aux'.
 
  (./partial/conclusion.tex
 第5章
-) [19
+) [18
 
 
 
@@ -352,14 +352,14 @@ File: ./image/plot2.jpg Graphic file (type bmp)
 
  (./partial/thanks.tex
 第6章
-) [20
+) [19
 
 
 
 ]
 \openout2 = `partial/reference.aux'.
 
- (./partial/reference.tex) [21
+ (./partial/reference.tex) [20
 
 
 
@@ -374,10 +374,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1158 strings out of 494442
  15093 string characters out of 6170618
- 80981 words of memory out of 5000000
+ 78980 words of memory out of 5000000
  5012 multiletter control sequences out of 15000+600000
  19347 words of font info for 92 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  27i,10n,24p,1239b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (22 pages, 56052 bytes).
+Output written on Mydocument.dvi (21 pages, 47712 bytes).
