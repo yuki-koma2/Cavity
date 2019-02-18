@@ -101,11 +101,15 @@ INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
-INPUT ./image/空洞共振器.png
-INPUT extractbb -B cropbox -O ./image/空洞共振器.png
+INPUT ./image/JJ.png
+INPUT extractbb -B cropbox -O ./image/JJ.png
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./image/IJJ.png
+INPUT extractbb -B cropbox -O ./image/IJJ.png
+INPUT ./image/空洞共振器.png
+INPUT extractbb -B cropbox -O ./image/空洞共振器.png
 OUTPUT partial/purpose.aux
 INPUT partial/purpose.tex
 INPUT partial/purpose.tex
