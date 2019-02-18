@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  18 FEB 2019 10:57
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  18 FEB 2019 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -253,16 +253,18 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
  (./partial/simulation.tex
 第3章
-File: ./image/mesh.png Graphic file (type bmp)
-<./image/mesh.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 19.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 19.
 [10
 
 
 
-]) [11]
+]
+File: ./image/mesh.png Graphic file (type bmp)
+<./image/mesh.png>
+) [11]
 \openout2 = `partial/result.aux'.
 
  (./partial/result.tex
@@ -271,6 +273,10 @@ File: ./image/te101.png Graphic file (type bmp)
 <./image/te101.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 13.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 13.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 13.
 [12
 
 
@@ -291,7 +297,7 @@ File: ./image/model73.png Graphic file (type bmp)
 File: ./image/基板資料あり.png Graphic file (type bmp)
 <./image/基板資料あり.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 125--139
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 129--143
 [][]$[]$[] []$[]$[] 
  []
 
@@ -304,7 +310,7 @@ File: ./image/model73_vac.png Graphic file (type bmp)
 File: ./image/Graph1.jpg Graphic file (type bmp)
 <./image/Graph1.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 160--174
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 164--178
 [][]$[]$[] []$[]$[] 
  []
 
@@ -314,7 +320,7 @@ File: ./image/model73_kiban_e_y_y.png Graphic file (type bmp)
 File: ./image/Graph5.jpg Graphic file (type bmp)
 <./image/Graph5.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 184--198
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 188--202
 [][]$[]$[] []$[]$[] 
  []
 
@@ -323,7 +329,7 @@ File: ./image/model73_y_x.png Graphic file (type bmp)
 File: ./image/Graph4.jpg Graphic file (type bmp)
 <./image/Graph4.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 207--221
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 211--225
 [][]$[]$[] []$[]$[] 
  []
 
@@ -366,12 +372,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1146 strings out of 494442
- 14980 string characters out of 6170618
- 80977 words of memory out of 5000000
- 5004 multiletter control sequences out of 15000+600000
- 17396 words of font info for 84 fonts, out of 8000000 for 9000
+ 1158 strings out of 494442
+ 15093 string characters out of 6170618
+ 80981 words of memory out of 5000000
+ 5012 multiletter control sequences out of 15000+600000
+ 19347 words of font info for 92 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 26i,6n,22p,1239b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,24p,1239b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (22 pages, 55192 bytes).
+Output written on Mydocument.dvi (22 pages, 56052 bytes).

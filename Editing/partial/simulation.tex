@@ -10,16 +10,20 @@
 過渡解析（トランジェント解析とも）モードでは、共振器内にマイクロ波パルスを入力し、その応答をフーリエ変換して周波数特性を解析するモードである。透過特性の解析には、マイクロ波を入射するためのポートと透過波を取り出すポートを設定する必要がある。トランジェント解析モードは、共振器と外部との伝送路の結合条件を解析するために用いる。
 
 \subsection{有限積分法}
-また今回のシュミレーターMW-StudioはFIT（有限積分法）を用いている。\cite{MWS-2}FITは普遍的な空間分散スキームを擁する数値解析手法であり、T.Weilandにより初めて提唱されたものである。FITは他の多くの数値解析手法のような微分形式ではなく、積分形式のマクスウェル方程式を離散化して計算を行う。
+また今回のシュミレーターMW-StudioはFIT（有限積分法）を用いている。\cite{MWS-2}FITは普遍的な空間分散スキームを擁する数値解析手法であり、
+T.Weilandにより初めて提唱された\cite{FIT}ものである。
+FITは他の多くの数値解析手法のような微分形式ではなく、
+以下のような積分形式のマクスウェル方程式を離散化して計算を行う。
 
-
-（あとで書く）
 \begin{eqnarray}
-  2x_1 + x_2 & = & 5 \\
-  2x_2 & = & 2
+  \oint_{\partial A} \mathbf{E} \cdot d\mathbf{s}
+  = - \int_{\partial A} \frac{\partial \mathbf{B}}{\partial t} \cdot d  \mathbf{A}\\
+  \oint_{\partial A} \mathbf{H} \cdot d\mathbf{s} =  \int_{\partial A} \{ \frac{\partial \mathbf{D}}{\partial t} + \mathbf{J} \} \\
+  \oint_{\partial V} \mathbf{D} \cdot d\mathbf{A} = \int_V \rho dV \\
+  \oint_{\partial V} \mathbf{B} \cdot d\mathbf{A} = 0
 \end{eqnarray}
 
-これらの方程式を解く際には、最初に解析対象を包含する有限の計算領域を定義する必要がある。次にこの良識を適切なメッシュシステムによって多くのの小さなグリットセルに分割する。
+これらの方程式を解く際には、最初に解析対象を包含する有限の計算領域を定義する必要がある。次にこの良識を適切なメッシュシステムによって多くの小さなグリットセルに分割する。
 
 \vspace{10 mm}
 
@@ -41,7 +45,7 @@
 \begin{itemize}
   \item メッシュ数20000前後
   \item 空洞を構成する素材は完全導体
-  \item 周波数範囲30~80GHz
+  \item 周波数範囲30 〜 80GHz
   \item Accuracyは-40dB
 \end{itemize}
 

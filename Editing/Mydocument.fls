@@ -120,6 +120,10 @@ INPUT /usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 OUTPUT partial/simulation.aux
 INPUT partial/simulation.tex
 INPUT partial/simulation.tex
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT ./image/mesh.png
 INPUT extractbb -B cropbox -O ./image/mesh.png
 OUTPUT partial/result.aux
@@ -129,6 +133,10 @@ INPUT ./image/te101.png
 INPUT extractbb -B cropbox -O ./image/te101.png
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT ./image/pos.png
 INPUT extractbb -B cropbox -O ./image/pos.png
 INPUT ./image/length.png
