@@ -124,27 +124,6 @@ LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 14.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 14.
-
-[1
-
-
-]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 17.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
@@ -157,7 +136,8 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 23.0061pt on input line 17.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 23.0061pt on input line 17.
- (./Mydocument.toc
+
+(./Mydocument.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -171,6 +151,7 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 \openout3 = `Mydocument.toc'.
 
  [1
+
 
 ]
 \openout2 = `partial/introduction.aux'.
@@ -190,8 +171,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 ]
 \openout2 = `partial/prologue.aux'.
 
-
-(./partial/prologue.tex
+ (./partial/prologue.tex
 第1章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 1.
@@ -209,6 +189,10 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 4.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 4.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 5.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
@@ -273,6 +257,10 @@ File: ./image/te101.png Graphic file (type bmp)
 <./image/te101.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 8.32214pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
@@ -372,12 +360,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1158 strings out of 494442
- 15093 string characters out of 6170618
+ 1146 strings out of 494442
+ 14941 string characters out of 6170618
  78980 words of memory out of 5000000
- 5012 multiletter control sequences out of 15000+600000
- 19347 words of font info for 92 fonts, out of 8000000 for 9000
+ 5003 multiletter control sequences out of 15000+600000
+ 17533 words of font info for 85 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 27i,10n,24p,1239b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,24p,1239b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (21 pages, 47712 bytes).
+Output written on Mydocument.dvi (20 pages, 47200 bytes).
