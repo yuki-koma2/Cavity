@@ -10,19 +10,27 @@
 \begin{figure}[h]
   \begin{center}
     \includegraphics[width=12cm]{./image/te101.png}
-    \caption{TE101の電場分布}
+    \caption{TE$_{101}$の電場分布}
     \label{fig:E-TE101}
   \end{center}
 \end{figure}
 
-上図のように基本モード$TE101$を持つ空洞共振器を用いて、誘電率9の誘電体(サファイア)を下図のように
+図4.1 のように基本モードTETE$_{101}$を持つ空洞共振器を設計した。
+この図では電場分布（最大振幅）を表しており、中心の方が振幅が大きく、
+端に向かうにしたがって小さくなっていることがわかる。
+今回は、この共振器を用いて検証を行う。
+
+誘電率9の誘電体(サファイア)を下図のように
 
 \begin{enumerate}
   \item 共振器よりも小さいサイズで位置のみを変化させたモデル
   \item 共振器と同じサイズで徐々に挿入していくモデル
 \end{enumerate}
 
-の２つの場合で検証を行った。
+の２つの場合で検証を行った。\\
+水色の部分が共振器、青色の部分が誘電体（サファイア）である。
+また、共振器の長さは4.8mmとし、
+誘電体の位置は誘電体の初期位置でもっとも共振器中心に近い面を基準にして検証を行った。
 
 \vspace{10 mm}
 
@@ -46,8 +54,13 @@
 
 \subsection{結果}
 結果を以下のグラフに示す。
+赤で示した点が位置のみを動かしたモデルの結果であり、青で示した点が挿入長を変化させたモデルの結果である。
+
 この結果から、電場振幅の大きい場所に誘電体をおいた方が振幅が小さい場所におくよりも大きく共振周波数が変化すること。また、誘電体の位置だけを変化させる場合と挿入する場合では、変化の最大値は挿入していったモデルの方が大きいということがわかった。
 
+また、どちらも一定の位置まで共振周波数が変化しなかったことから、共振の振幅が小さな場所に誘電体を挿入しても共振周波数には変化を及ぼさないということがわかった。
+
+位置のみを変えたモデルで、共振器の末端に誘電体が到達した点の共振周波数が最初の位置での共振周波数から下がってしまっている。また、その他の点でも中心点から対照的なプロットになっていないように見える。この点については以下で考察を行う。
 
 \vspace{10 mm}
 
@@ -61,6 +74,21 @@
 
 
 \subsection{考察}
+位置のみを変えたモデルで最後の点と最初の点での共振周波数が異なっているのは、
+共振器の壁に誘電体が到達してしまったことで、
+別のモードが発現し、その共振周波数が記録されてしまっているためであると考えられる。
+
+また、対照的なプロットにならなかったのは、
+位置座標の取り方が大きく影響していると考えられる。
+上記の結果から、誘電体が電場振幅の強い部分に存在する際に、
+共振周波数は大きく影響を受ける。
+しかし、今回は誘電体の片面を基準にしてしまったために、位置によって、
+誘電体のどの程度の部分が電場振幅が強い場所にあるのか、という情報が中心軸を境に、変わってしまった。
+以降同様の検証を行う場合には、誘電体の中心を基準点としてとると
+対照的なプロットが取れると期待出来る。
+
+
+
 これらの結果を受けて、共振周波数を大きく変化させるためには、共振器内部の「電場振幅の大きい場所」に誘電体を「挿入」すると良さそうである。
 
 \section{設計したモデル}
@@ -118,79 +146,129 @@
 以下それぞれ、左に固有値解析の結果、右に過渡解析の結果を示す。
 過渡解析の結果はSパラメータを表示している。
 シミュレーションでは入力ポートと出力ポートを設定しており、
-S$_{11}$は入力電力に対する反射電力比を示し、
-S$_{21}$は入力電力に対する透過電力比を示す。
+下図赤線で示されたS$_{11}$は入力電力に対する反射電力比を示し、
+下図青線で示されたS$_{21}$は入力電力に対する透過電力比を示す。
 その２つの値が大きく逆向きに変動している場所で共振していると言える。
 
 
 \subsubsection{誘電体なし基盤なし}
 まず誘電体も基盤も全く設置していない場合の解析結果は以下のようになっている。
 過渡解析の結果、狙ったモード（TE$_{101}$）での共振も観測された。
-前述の調整誘電体の場所はこの結果を受けて、決定している。
+前述の基盤や調整誘電体の場所はこの結果を受けて、決定している。
 
 \begin{figure}[h]
  \begin{minipage}{0.5\hsize}
   \begin{center}
-   \includegraphics[width=70mm]{./image/空洞共振器.png}
+   \includegraphics[width=70mm]{./image/model73_vac.png}
   \end{center}
-  \caption{一つめの図}
+  \caption{誘電体基盤なしy軸方向の電場分布}
   \label{fig:one}
  \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
-   \includegraphics[width=70mm]{./image/model73_vac.png}
+   \includegraphics[width=70mm]{./image/Graph1.jpg}
   \end{center}
-  \caption{二つめの図}
+  \caption{誘電体基盤なしSパラメータ}
   \label{fig:two}
  \end{minipage}
 \end{figure}
 
 \subsubsection{誘電体なし基盤あり}
+共振周波数を調整するための誘電体は入れずに、基盤のみ共振器内部に存在するモデルでシミュレーションを実行した。
+試料が乗っている基盤は動かさないため、この値が今回得られる共振周波数の最大値となる。
+基盤自体も誘電体であるため、空の場合よりも共振周波数が下がってしまっているが、
+最大値として52GHz程度の共振周波数が得られそうである。
+
+
 \begin{figure}[h]
- \begin{minipage}{0.5\hsize}
-  \begin{center}
-   \includegraphics[width=70mm]{./image/空洞共振器.png}
-  \end{center}
-  \caption{一つめの図}
-  \label{fig:one}
- \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
    \includegraphics[width=70mm]{./image/model73_kiban_e_y_y.png}
   \end{center}
-  \caption{二つめの図}
+  \caption{誘電体なし基盤ありy軸方向の電場分布}
+  \label{fig:one}
+ \end{minipage}
+ \begin{minipage}{0.5\hsize}
+  \begin{center}
+   \includegraphics[width=70mm]{./image/Graph5.jpg}
+  \end{center}
+  \caption{誘電体なし基盤ありSパラメータ}
   \label{fig:two}
  \end{minipage}
 \end{figure}
 
 \subsubsection{誘電体あり基盤あり}
+最後に共振周波数を調整するための誘電体と、
+基盤をどちらも含めたモデルでシミュレーションを行った。
+これが今回得られる共振周波数の最小値となる。
+その結果、37GHz程度まで共振周波数を減少させることができた。
+
 \begin{figure}[h]
- \begin{minipage}{0.5\hsize}
-  \begin{center}
-   \includegraphics[width=70mm]{./image/空洞共振器.png}
-  \end{center}
-  \caption{一つめの図}
-  \label{fig:one}
- \end{minipage}
  \begin{minipage}{0.5\hsize}
   \begin{center}
    \includegraphics[width=70mm]{./image/model73_y_x.png}
   \end{center}
-  \caption{二つめの図}
+  \caption{誘電体基盤ありy軸方向の電場分布}
+  \label{fig:one}
+ \end{minipage}
+ \begin{minipage}{0.5\hsize}
+  \begin{center}
+   \includegraphics[width=70mm]{./image/Graph4.jpg}
+  \end{center}
+  \caption{誘電体基盤ありSパラメータ}
   \label{fig:two}
  \end{minipage}
 \end{figure}
 
 \subsection{誘電体挿入時の共振周波数変化}
+次に、下図のように誘電体を徐々に共振器内部へ挿入していった場合の共振周波数の変化を
+過渡解析で検証した。
+なお、水色の部分が共振器、青色の部分が誘電体である。
+同軸ケーブルは省略している。
+\vspace{10 mm}
+
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=8cm]{./image/insert.png}
+    \caption{共振器への誘電体挿入}
+    \label{fig:insert}
+  \end{center}
+\end{figure}
+
+解析結果を図4.15に示す。
+誘電体挿入と共に固有モードの数が変わってしまい、モードを共振周波数の低い順に、順番で判断する固有値解析モードでは様々なモードが混じってしまうため、
+今回は過渡解析の結果を利用した。
+その結果から共振ピークと判断出来る点を取り出し、プロットした。
 
 \vspace{10 mm}
 
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=8cm]{./image/空洞共振器.png}
-    \caption{方形空洞共振器}
-    \label{fig:Cavity}
+    \includegraphics[width=12cm]{./image/plot2.jpg}
+    \caption{誘電体挿入の際の共振周波数の変化}
+    \label{fig:result}
   \end{center}
 \end{figure}
 
-\subsection{考察}
+この結果から、誘電体挿入に伴い、
+40~52GHz程度で共振周波数が変化する様子が観測できた。
+また過渡解析の結果であるので、外界との電磁場結合ができており、
+きちんと共振が起こるモデルであることがわかる。
+
+
+% \subsection{考察}
+%
+% あああああああああああああああ
+% あああああああ
+%
+% あああああああ
+% ああああ
+%
+% あああああああ
+% ああああ
+%
+% あああああああああああああああ
+% あああああああ
+%
+% あああああああああああああああ
+% あああああああ

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  17 FEB 2019 19:01
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  18 FEB 2019 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -101,9 +101,6 @@ LaTeX Warning: Label `fig:one' multiply defined.
 
 
 LaTeX Warning: Label `fig:two' multiply defined.
-
-
-LaTeX Warning: Label `fig:Cavity' multiply defined.
 
 ) (./partial/conclusion.aux) (./partial/thanks.aux) (./partial/reference.aux))
 \openout1 = `Mydocument.aux'.
@@ -231,20 +228,17 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 第2章
 File: ./image/watanabe.png Graphic file (type bmp)
 <./image/watanabe.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [7
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
  (/usr/local/texlive/2018basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
 )
 [8]
 \openout2 = `partial/simulation.aux'.
@@ -267,6 +261,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 第4章
 File: ./image/te101.png Graphic file (type bmp)
 <./image/te101.png>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 13.
 [11
 
 
@@ -276,71 +272,64 @@ File: ./image/pos.png Graphic file (type bmp)
 <./image/pos.png>
 File: ./image/length.png Graphic file (type bmp)
 <./image/length.png>
+ [12]
 File: ./image/plot1.jpg Graphic file (type bmp)
 <./image/plot1.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12]
+ [13]
 File: ./image/newmodel.png Graphic file (type bmp)
 <./image/newmodel.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ./image/model73.png Graphic file (type bmp)
 <./image/model73.png>
 File: ./image/基板資料あり.png Graphic file (type bmp)
 <./image/基板資料あり.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 97--111
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 125--139
 [][]$[]$[] []$[]$[] 
  []
 
-[13]
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-File: ./image/model73_vac.png Graphic file (type bmp)
-<./image/model73_vac.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 132--146
-[][]$[]$[] []$[]$[] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14]
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
+File: ./image/model73_vac.png Graphic file (type bmp)
+<./image/model73_vac.png>
+File: ./image/Graph1.jpg Graphic file (type bmp)
+<./image/Graph1.jpg>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 160--174
+[][]$[]$[] []$[]$[] 
+ []
+
+[15]
 File: ./image/model73_kiban_e_y_y.png Graphic file (type bmp)
 <./image/model73_kiban_e_y_y.png>
+File: ./image/Graph5.jpg Graphic file (type bmp)
+<./image/Graph5.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 150--164
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 184--198
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
 File: ./image/model73_y_x.png Graphic file (type bmp)
 <./image/model73_y_x.png>
+File: ./image/Graph4.jpg Graphic file (type bmp)
+<./image/Graph4.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 168--182
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 207--221
 [][]$[]$[] []$[]$[] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./image/空洞共振器.png Graphic file (type bmp)
-<./image/空洞共振器.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [15] [16]
+File: ./image/insert.png Graphic file (type bmp)
+<./image/insert.png>
+[16]
+File: ./image/plot2.jpg Graphic file (type bmp)
+<./image/plot2.jpg>
+) [17]
 \openout2 = `partial/conclusion.aux'.
 
  (./partial/conclusion.tex
 第5章
-) [17
+) [18
 
 
 
@@ -349,14 +338,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (./partial/thanks.tex
 第6章
-) [18
+) [19
 
 
 
 ]
 \openout2 = `partial/reference.aux'.
 
- (./partial/reference.tex) [19
+ (./partial/reference.tex) [20
 
 
 
@@ -369,12 +358,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1118 strings out of 494442
- 14513 string characters out of 6170618
- 80943 words of memory out of 5000000
- 4984 multiletter control sequences out of 15000+600000
- 16783 words of font info for 82 fonts, out of 8000000 for 9000
+ 1139 strings out of 494442
+ 14875 string characters out of 6170618
+ 80966 words of memory out of 5000000
+ 4999 multiletter control sequences out of 15000+600000
+ 17396 words of font info for 84 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 25i,6n,22p,1239b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 26i,6n,22p,1239b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (20 pages, 49772 bytes).
+Output written on Mydocument.dvi (21 pages, 54600 bytes).

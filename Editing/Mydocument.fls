@@ -123,6 +123,8 @@ INPUT partial/result.tex
 INPUT partial/result.tex
 INPUT ./image/te101.png
 INPUT extractbb -B cropbox -O ./image/te101.png
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2018basic/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT ./image/pos.png
 INPUT extractbb -B cropbox -O ./image/pos.png
 INPUT ./image/length.png
@@ -135,16 +137,22 @@ INPUT ./image/model73.png
 INPUT extractbb -B cropbox -O ./image/model73.png
 INPUT ./image/基板資料あり.png
 INPUT extractbb -B cropbox -O ./image/基板資料あり.png
-INPUT ./image/空洞共振器.png
 INPUT ./image/model73_vac.png
 INPUT extractbb -B cropbox -O ./image/model73_vac.png
-INPUT ./image/空洞共振器.png
+INPUT ./image/Graph1.jpg
+INPUT extractbb -B cropbox -O ./image/Graph1.jpg
 INPUT ./image/model73_kiban_e_y_y.png
 INPUT extractbb -B cropbox -O ./image/model73_kiban_e_y_y.png
-INPUT ./image/空洞共振器.png
+INPUT ./image/Graph5.jpg
+INPUT extractbb -B cropbox -O ./image/Graph5.jpg
 INPUT ./image/model73_y_x.png
 INPUT extractbb -B cropbox -O ./image/model73_y_x.png
-INPUT ./image/空洞共振器.png
+INPUT ./image/Graph4.jpg
+INPUT extractbb -B cropbox -O ./image/Graph4.jpg
+INPUT ./image/insert.png
+INPUT extractbb -B cropbox -O ./image/insert.png
+INPUT ./image/plot2.jpg
+INPUT extractbb -B cropbox -O ./image/plot2.jpg
 OUTPUT partial/conclusion.aux
 INPUT partial/conclusion.tex
 INPUT partial/conclusion.tex
