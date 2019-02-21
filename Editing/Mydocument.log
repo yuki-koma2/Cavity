@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  18 FEB 2019 13:45
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  19 FEB 2019 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -76,7 +76,12 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen124
 \Gin@req@width=\dimen125
-) (./Mydocument.aux (./partial/introduction.aux) (./partial/prologue.aux
+)
+
+LaTeX Warning: Unused global option(s):
+    [10.5pt].
+
+(./Mydocument.aux (./partial/introduction.aux) (./partial/prologue.aux
 
 LaTeX Warning: Label `fig:Cavity' multiply defined.
 
@@ -124,20 +129,35 @@ LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 17.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 17.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 17.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 17.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 17.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 17.
+\openout2 = `partial/introduction.aux'.
 
-(./Mydocument.toc
+
+(./partial/introduction.tex
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 1.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 1.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 5.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 5.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 11.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 11.
+) [1
+
+
+
+] (./Mydocument.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -150,22 +170,7 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 \tf@toc=\write3
 \openout3 = `Mydocument.toc'.
 
- [1
-
-
-]
-\openout2 = `partial/introduction.aux'.
-
- (./partial/introduction.tex
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 11.
-) [2
+ [2
 
 
 ]
@@ -204,7 +209,6 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 8.32214pt on input line 28.
 [3
-
 
 
 ]
@@ -338,9 +342,7 @@ File: ./image/plot2.jpg Graphic file (type bmp)
 ]
 \openout2 = `partial/thanks.aux'.
 
- (./partial/thanks.tex
-第6章
-) [19
+ (./partial/thanks.tex) [19
 
 
 
@@ -351,21 +353,21 @@ File: ./image/plot2.jpg Graphic file (type bmp)
 
 
 
-] (./Mydocument.aux
-(./partial/introduction.aux) (./partial/prologue.aux) (./partial/purpose.aux)
-(./partial/simulation.aux) (./partial/result.aux) (./partial/conclusion.aux)
-(./partial/thanks.aux) (./partial/reference.aux))
+]
+(./Mydocument.aux (./partial/introduction.aux) (./partial/prologue.aux)
+(./partial/purpose.aux) (./partial/simulation.aux) (./partial/result.aux)
+(./partial/conclusion.aux) (./partial/thanks.aux) (./partial/reference.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1146 strings out of 494442
- 14941 string characters out of 6170618
- 78980 words of memory out of 5000000
- 5003 multiletter control sequences out of 15000+600000
+ 1147 strings out of 494442
+ 14950 string characters out of 6170618
+ 80000 words of memory out of 5000000
+ 5004 multiletter control sequences out of 15000+600000
  17533 words of font info for 85 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  27i,10n,24p,1239b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (20 pages, 47200 bytes).
+Output written on Mydocument.dvi (20 pages, 49056 bytes).
