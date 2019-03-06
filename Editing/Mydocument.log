@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  19 FEB 2019 19:45
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  4 MAR 2019 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -205,9 +205,9 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 File: ./image/JJ.png Graphic file (type bmp)
 <./image/JJ.png>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 28.
+(Font)              scaled to size 8.32214pt on input line 32.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 28.
+(Font)              scaled to size 8.32214pt on input line 32.
 [3
 
 
@@ -217,7 +217,11 @@ File: ./image/IJJ.png Graphic file (type bmp)
  [4]
 File: ./image/空洞共振器.png Graphic file (type bmp)
 <./image/空洞共振器.png>
- [5]) [6]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]) [6]
 \openout2 = `partial/purpose.aux'.
 
  (./partial/purpose.tex
@@ -364,10 +368,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1147 strings out of 494442
  14950 string characters out of 6170618
- 80000 words of memory out of 5000000
+ 79000 words of memory out of 5000000
  5004 multiletter control sequences out of 15000+600000
  17533 words of font info for 85 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
- 27i,10n,24p,1239b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,10n,24p,1243b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (20 pages, 49056 bytes).
+Output written on Mydocument.dvi (20 pages, 49688 bytes).
