@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  6 MAR 2019 23:57
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  7 MAR 2019 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,15 +264,15 @@ File: ./image/mesh.png Graphic file (type bmp)
 File: ./image/te101.png Graphic file (type bmp)
 <./image/te101.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 13.
+(Font)              <9> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 23.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 13.
+(Font)              scaled to size 5.5481pt on input line 23.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 13.
+(Font)              scaled to size 8.32214pt on input line 23.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 13.
+(Font)              scaled to size 5.5481pt on input line 23.
 [11
 
 
@@ -282,10 +282,13 @@ File: ./image/pos.png Graphic file (type bmp)
 <./image/pos.png>
 File: ./image/length.png Graphic file (type bmp)
 <./image/length.png>
- [12]
 File: ./image/plot1.jpg Graphic file (type bmp)
 <./image/plot1.jpg>
- [13]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13]
 File: ./image/newmodel.png Graphic file (type bmp)
 <./image/newmodel.png>
 File: ./image/model73.png Graphic file (type bmp)
@@ -293,7 +296,7 @@ File: ./image/model73.png Graphic file (type bmp)
 File: ./image/基板資料あり.png Graphic file (type bmp)
 <./image/基板資料あり.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 129--143
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 143--157
 [][]$[]$[] []$[]$[] 
  []
 
@@ -306,35 +309,40 @@ File: ./image/model73_vac.png Graphic file (type bmp)
 File: ./image/Graph1.jpg Graphic file (type bmp)
 <./image/Graph1.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 164--178
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 178--192
 [][]$[]$[] []$[]$[] 
  []
 
-[15]
 File: ./image/model73_kiban_e_y_y.png Graphic file (type bmp)
 <./image/model73_kiban_e_y_y.png>
 File: ./image/Graph5.jpg Graphic file (type bmp)
 <./image/Graph5.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 188--202
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 202--216
 [][]$[]$[] []$[]$[] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]
 File: ./image/model73_y_x.png Graphic file (type bmp)
 <./image/model73_y_x.png>
 File: ./image/Graph4.jpg Graphic file (type bmp)
 <./image/Graph4.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 211--225
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 225--239
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./image/insert.png Graphic file (type bmp)
 <./image/insert.png>
-[16]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./image/plot2.jpg Graphic file (type bmp)
 <./image/plot2.jpg>
-) [17]
+[16]) [17]
 \openout2 = `partial/conclusion.aux'.
 
  (./partial/conclusion.tex
@@ -374,4 +382,4 @@ Here is how much of TeX's memory you used:
  112 hyphenation exceptions out of 8191
  27i,10n,24p,1243b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (20 pages, 50868 bytes).
+Output written on Mydocument.dvi (20 pages, 50504 bytes).
