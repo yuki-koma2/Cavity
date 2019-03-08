@@ -158,6 +158,8 @@ INPUT ./image/insert.png
 INPUT extractbb -B cropbox -O ./image/insert.png
 INPUT ./image/plot2.jpg
 INPUT extractbb -B cropbox -O ./image/plot2.jpg
+INPUT ./image/sweepS11.jpg
+INPUT extractbb -B cropbox -O ./image/sweepS11.jpg
 OUTPUT partial/conclusion.aux
 INPUT partial/conclusion.tex
 INPUT partial/conclusion.tex

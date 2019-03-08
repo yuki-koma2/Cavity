@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  8 MAR 2019 13:36
+This is e-upTeX, Version 3.14159265-p3.8.1-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2019.2.13)  8 MAR 2019 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -109,6 +109,9 @@ LaTeX Warning: Label `fig:one' multiply defined.
 
 
 LaTeX Warning: Label `fig:two' multiply defined.
+
+
+LaTeX Warning: Label `fig:result' multiply defined.
 
 ) (./partial/conclusion.aux) (./partial/thanks.aux) (./partial/reference.aux))
 \openout1 = `Mydocument.aux'.
@@ -296,7 +299,19 @@ File: ./image/model73.png Graphic file (type bmp)
 File: ./image/基板資料あり.png Graphic file (type bmp)
 <./image/基板資料あり.png>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 143--157
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 160--174
+[][]$[]$[] []$[]$[] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./image/model73_vac.png Graphic file (type bmp)
+<./image/model73_vac.png>
+File: ./image/Graph1.jpg Graphic file (type bmp)
+<./image/Graph1.jpg>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 203--217
 [][]$[]$[] []$[]$[] 
  []
 
@@ -304,21 +319,24 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 143--157
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14]
-File: ./image/model73_vac.png Graphic file (type bmp)
-<./image/model73_vac.png>
-File: ./image/Graph1.jpg Graphic file (type bmp)
-<./image/Graph1.jpg>
-
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 178--192
-[][]$[]$[] []$[]$[] 
- []
-
 File: ./image/model73_kiban_e_y_y.png Graphic file (type bmp)
 <./image/model73_kiban_e_y_y.png>
 File: ./image/Graph5.jpg Graphic file (type bmp)
 <./image/Graph5.jpg>
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 202--216
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 235--249
+[][]$[]$[] []$[]$[] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./image/model73_y_x.png Graphic file (type bmp)
+<./image/model73_y_x.png>
+File: ./image/Graph4.jpg Graphic file (type bmp)
+<./image/Graph4.jpg>
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 267--281
 [][]$[]$[] []$[]$[] 
  []
 
@@ -326,22 +344,24 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 202--216
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15]
-File: ./image/model73_y_x.png Graphic file (type bmp)
-<./image/model73_y_x.png>
-File: ./image/Graph4.jpg Graphic file (type bmp)
-<./image/Graph4.jpg>
-
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 225--239
-[][]$[]$[] []$[]$[] 
- []
-
 File: ./image/insert.png Graphic file (type bmp)
 <./image/insert.png>
+File: ./image/plot2.jpg Graphic file (type bmp)
+<./image/plot2.jpg>
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: ./image/plot2.jpg Graphic file (type bmp)
-<./image/plot2.jpg>
+File: ./image/sweepS11.jpg Graphic file (type bmp)
+<./image/sweepS11.jpg>
+
+Overfull \hbox (2.1496pt too wide) in paragraph at lines 326--327
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [16]) [17]
 \openout2 = `partial/conclusion.aux'.
 
@@ -374,12 +394,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1147 strings out of 494442
- 14950 string characters out of 6170618
+ 1150 strings out of 494442
+ 15015 string characters out of 6170618
  80000 words of memory out of 5000000
- 5004 multiletter control sequences out of 15000+600000
+ 5006 multiletter control sequences out of 15000+600000
  17533 words of font info for 85 fonts, out of 8000000 for 9000
  112 hyphenation exceptions out of 8191
  27i,10n,24p,1243b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Mydocument.dvi (20 pages, 50520 bytes).
+Output written on Mydocument.dvi (20 pages, 49888 bytes).

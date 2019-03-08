@@ -10,10 +10,10 @@
 \contentsline {section}{\numberline {3.2}シミュレーションの基本設定}{10}% 
 \contentsline {chapter}{\numberline {第4章}結果と考察}{11}% 
 \contentsline {section}{\numberline {4.1}誘電体の挿入効果}{11}% 
-\contentsline {section}{\numberline {4.2}設計したモデル}{13}% 
-\contentsline {subsubsection}{誘電体なし基盤なし}{15}% 
-\contentsline {subsubsection}{誘電体なし基盤あり}{15}% 
-\contentsline {subsubsection}{誘電体あり基盤あり}{16}% 
+\contentsline {section}{\numberline {4.2}同軸ケーブルとの結合と試料位置を考慮したモデル}{13}% 
+\contentsline {subsubsection}{誘電体なし基板なし}{14}% 
+\contentsline {subsubsection}{誘電体なし基板あり}{15}% 
+\contentsline {subsubsection}{誘電体あり基板あり}{15}% 
 \contentsline {chapter}{\numberline {第5章}結論と今後の展望}{18}% 
 \contentsline {section}{\numberline {5.1}結論}{18}% 
 \contentsline {section}{\numberline {5.2}今後の展望}{18}% 
